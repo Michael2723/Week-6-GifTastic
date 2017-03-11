@@ -1,0 +1,100 @@
+body{
+	background-color: green;
+}
+
+#contentContainer{
+	background-color: green;
+	color: white;
+	width: 450px;
+	height: 100%;
+	position: fixed;
+}
+
+#titleHeader, #gifChoiceContainer h2{
+	font-family: serif;
+	font-size: 1em;
+	margin-top: 10px;
+}
+
+#titleHeader{
+	text-align: center;
+}
+
+#gifChoiceContainer h2{
+	margin-left: 10px;
+	float: left;
+
+}
+
+#gifOptions{
+	width: 125px;
+	margin-top: 10px;
+	float: left;
+	border-radius: 10px;
+}
+
+#labelContainer{
+	font-family: 'Trocchi', serif;
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left;
+}
+
+#limit{
+	border-radius: 10px;
+}
+
+#buttonContainer{
+	text-align: center;
+	margin-top: 35px;
+}
+
+#searchButton, #resetButton, #addButton{
+	
+	background-color: white;
+	color: black;
+	border-radius: 8px;
+	width: 100px;
+	height: 25px;
+}
+
+#placeForClickedGifs{
+	margin-left: 400px;
+	margin-top: 10px;
+}
+
+.gifContentBox{
+	border-radius: 10px;
+	width: 300px;
+	height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+	vertical-align: middle;
+	float: right;
+}
+
+.imageContainer img{
+	width: 300px;
+	height: 300px;
+}
+
+.imageContainer{
+	width: 300px;
+	height: 300px;
+    margin: auto;
+    margin-top: 15px;
+    display: block;	
+    position: relative;
+    
+}
+
+.ratingFont{
+	font-family:serif;
+	color: white;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 10;
+}
